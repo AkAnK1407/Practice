@@ -5,10 +5,10 @@ class Solution {
   public:
     vector<int> passedBy(int a, int &b) {
       
-        vector<int>v(2);
-        v[0]=a+1;
-        v[1]=b+2;
-        return v;
+        vector<int>arr(2);
+        arr[0]=a+1;
+        arr[1]=b+2;
+        return arr;
         
     }
 };
