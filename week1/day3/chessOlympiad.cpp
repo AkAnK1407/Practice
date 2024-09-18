@@ -2,13 +2,13 @@
 using namespace std;
 
 int main() {
-	// your code goes here
-	int x,y,z,op=0,you=0;
+	
+	int x,y,z,opt=0,you=0;
 	cin>>x>>y>>z;
 	you=x+y*0.5;
-	op=y*0.5+z;
+	opt=y*0.5+z;
 	int rem = 4 - (x + y + z);
-	if(rem+you >op   )
+	if(rem+you >opt )
 	cout<<"YES"<<endl;
 	else cout<<"NO"<<endl;
 	return 0;
